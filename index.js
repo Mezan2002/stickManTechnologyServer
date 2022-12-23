@@ -12,9 +12,9 @@ app.use(express.json());
 
 // initial setup start
 app.get("/", (req, res) => {
-  res.send("stickman technology server running");
+  res.send("${website name} server is running");
 });
 app.listen(port, () => {
-  console.log(`stickman technology server running ${port}`);
+  console.log(`website name server is running on port ${port}`);
 });
 // initial setup end
